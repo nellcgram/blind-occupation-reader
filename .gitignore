@@ -1,0 +1,7 @@
+.DS_Store
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+# private material lives outside the repo; keep it that way
+*_archive/
