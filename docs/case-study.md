@@ -36,7 +36,6 @@ The 2 agents created read all manuscript scenes, vote on the job, quote their ev
 ### What went wrong
 1. **Runaway agents.** Parallel subagents re-ran the whole workflow and, in one case, pushed a deletion to an unrelated
    repo. The agents had full shell access they never needed. Fix: Read-only tools, plus a permission prompt before any push.
-   Lesson: ask what an agent *can* do, not only what it was told.
 2. **Stated-job quotes.** Subagents kept quoting lines that named the job (dialogue, not behavior). I added a rule to cut this.
 3. **The character had 2 names.** One run picked scenes by one of the character's two names. Fix: per-character manuscript path and alias rules.
 
