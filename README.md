@@ -8,7 +8,7 @@ It's a Claude Code skill with two agents (`blind-inferrer` and `matcher`), plus 
 invented sample character.
 
 **[Case study](docs/case-study.md)** has what went wrong and what I learned. Short version: restricting agent tools
-fixed a runaway-agent incident, and answers changed because of which scenes were used, not randomness.
+fixed a runaway-agent incident, and answers changed because of which scenes were used.
 
 ## Try it
 
@@ -23,10 +23,15 @@ To use it on your own character, add `data/<name>_candidates.md` with a `Manuscr
 
 `.claude/` agents, skill, per-character candidates and logs · `sample/` invented manuscript · `docs/` case study
 
-## Honest limits
+## Limits
 
 - A prompt-based experiment, not a validated measure. Votes from one model are correlated.
 - The sample is easy on purpose: every run gave the same answer (ER nurse, 5/5). It shows the pipeline works, not how it handles subtle writing.
 - Small tests: one invented sample, a few runs.
 
+## Important note
+This section was written by Claude, carefully edited by Nell.
+
 MIT license.
+
+
