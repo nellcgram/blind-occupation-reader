@@ -7,8 +7,7 @@ vote count and the quotes behind the winner, and checks the verdict against occu
 It's a Claude Code skill with two agents (`blind-inferrer` and `matcher`), plus a log per character. It runs on an
 invented sample character.
 
-**[Case study](docs/case-study.md)** has what went wrong and what I learned. Short version: restricting agent tools
-fixed a runaway-agent incident, and answers changed because of which scenes were used.
+**[Case study](docs/case-study.md)** has the design decisions and the problems I fixed.
 
 ## Try it
 
@@ -26,7 +25,7 @@ To use it on your own character, add `data/<name>_candidates.md` with a `Manuscr
 ## Limits
 
 - A prompt-based experiment, not a validated measure. Votes from one model are correlated.
-- The sample is easy on purpose: every run gave the same answer (ER nurse, 5/5). It shows the pipeline works, not how it handles subtle writing.
+- Every run on the sample gave the same answer (ER nurse, 5/5), so it shows the pipeline works.
 - Small tests: one invented sample, a few runs.
 
 ## Important note
