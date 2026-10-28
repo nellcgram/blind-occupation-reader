@@ -7,8 +7,7 @@ vote count and the quotes behind the winner, and checks the verdict against occu
 It's a Claude Code skill with two agents (`blind-inferrer` and `matcher`), plus a log per character. It runs on an
 invented sample character.
 
-**[Case study](docs/case-study.md)** has what went wrong and what I learned. Short version: restricting agent tools
-fixed a runaway-agent incident, and answers changed because of which scenes were used.
+**[Case study](docs/case-study.md)** has the design decisions and the problems I fixed.
 
 ## Try it
 
