@@ -7,7 +7,6 @@
 - Agents can use only the Read tool, do not write or run anything
 - Agents should reference the whole manuscript, not only some scenes
 - One candidates file per character, with a `Manuscript:` path and aliases (a hard-coded path and name-based scene selection both caused errors)
-- Each run is logged with the exact text used
 
 ## Problems fixed
 

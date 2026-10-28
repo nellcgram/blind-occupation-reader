@@ -25,7 +25,7 @@ To use it on your own character, add `data/<name>_candidates.md` with a `Manuscr
 ## Limits
 
 - A prompt-based experiment, not a validated measure. Votes from one model are correlated.
-- The sample is easy on purpose: every run gave the same answer (ER nurse, 5/5). It shows the pipeline works, not how it handles subtle writing.
+- Every run on the sample gave the same answer (ER nurse, 5/5), so it shows the pipeline works.
 - Small tests: one invented sample, a few runs.
 
 ## Important note
